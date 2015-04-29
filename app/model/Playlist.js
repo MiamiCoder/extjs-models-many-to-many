@@ -21,7 +21,7 @@
             field: 'TrackId',           // The primary key of the related model.
             right: {                    // The model related to the Track model.  (Now we are defining the relationship in the other direction.)
                 field: 'PlaylistId',    // The primary key of the related model.
-                role: 'playlists'       // Creates a "playlists()" function in the Track model that returns the Palylists Store.
+                role: 'playlists'       // Creates a "playlists()" function in the Track model that returns the Playlists Store.
             }
         }
     }
